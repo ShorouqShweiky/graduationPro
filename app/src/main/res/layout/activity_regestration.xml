@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Regestration"
+    android:background="@drawable/backgw">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#19778F">
+
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="PS IOT PLATFORM"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+            android:layout_width="72dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ic_person" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dname"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Your Name: "
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="92dp"
+            android:layout_marginBottom="10dp"
+
+            android:hint=" Enter your name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Dname"
+            android:id="@+id/Manufac"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="UserName:"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Dname"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="10dp"
+            android:hint=" Enter your username" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Manufac"
+            android:id="@+id/txt4"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Email:"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Manufac"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="10dp"
+            android:hint=" Enter your email address " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt4"
+            android:id="@+id/txt5"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Password:"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt4"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="10dp"
+            android:hint=" Enter your password " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt5"
+            android:id="@+id/txt6"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Confirm password:"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt5"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint=" Confirm your password " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt6"
+            android:id="@+id/txt7"
+            android:layout_margin="21dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Phone number:"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt6"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint=" Enter your number" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/save"
+            android:onClick="Save"
+            android:layout_below="@id/phonenumber"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#19778F"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/bottom_nav_menu" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
